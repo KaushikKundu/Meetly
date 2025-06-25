@@ -8,7 +8,7 @@ export default function SideBar() {
     const links = [
         {
             label: "Home",
-            href: "/",
+            href: "/home",
             icon: (
                 <IconHome
                     className="h-6 w-6 shrink-0"
@@ -103,7 +103,7 @@ export const Logo = () => {
         aria-label="Acet Labs Logo"
         className="font-medium whitespace-pre text-black dark:text-white"
       >
-        ScheduleEase
+        Meetly
       </span>
     </a>
   );

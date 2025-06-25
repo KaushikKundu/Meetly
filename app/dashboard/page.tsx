@@ -5,8 +5,13 @@ export default function Dashboard() {
         <div className="flex h-screen">
             <Sidebar />
             <div>
-                <h1>Welcome to the Dashboard Example</h1>
-                <p>This is a simple page demonstrating the sidebar component.</p>
+                <h1>Home</h1>
+                <div>
+                    <h2>Upcoming</h2>
+                    <div>
+                        <p>There are no upcoming events.</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
