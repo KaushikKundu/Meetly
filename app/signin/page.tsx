@@ -14,9 +14,9 @@ export default function Signup() {
                 <input type="text" placeholder="username" value={username} onChange={e => setUsername(e.target.value)} />
                 <input type="text" placeholder="password" value={password} onChange={e => setPassword(e.target.value)} />
                 <button onClick={() => {
-                    axios.post("/api/v1/signup", {username, password});
+                    axios.post("/api/v1/signin", {username, password});
                     router.push("/home");
-                }}>SignUp</button>
+                }}>SignIn</button>
             </div>
         </div>
     )
