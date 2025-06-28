@@ -19,8 +19,8 @@ export default function SideBar() {
             )
         },
         {
-            label: "Availability",
-            href: "/availability",
+            label: "Events",
+            href: "/home/events",
             icon: (
                 <IconCalendar
                     className="h-6 w-6 shrink-0"
@@ -30,21 +30,21 @@ export default function SideBar() {
                 />
             )
         },
-        {
-            label: "Billing",
-            href: "/billing",
-            icon:(
-                <IconMoneybag
-                    className="h-6 w-6 shrink-0"
-                    width={24}
-                    height={24}
-                    aria-hidden="true"
-                />
-            )
-        },
+        // {
+        //     label: "Billing",
+        //     href: "/billing",
+        //     icon:(
+        //         <IconMoneybag
+        //             className="h-6 w-6 shrink-0"
+        //             width={24}
+        //             height={24}
+        //             aria-hidden="true"
+        //         />
+        //     )
+        // },
         {
             label: "Account",
-            href: "/account",
+            href: "/dashboard",
             icon: (
                 <IconImageInPicture
                     className="h-6 w-6 shrink-0"

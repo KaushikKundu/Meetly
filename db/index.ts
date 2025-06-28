@@ -1,13 +1,13 @@
 import { PrismaClient } from "@/lib/generated/prisma";
 
-const generatePrismaClient = () => {
+const prismaSingletonClient = () => {
     return new PrismaClient();
 }
 declare global {
     var prisma: PrismaClient | undefined;
 }
 
-const prisma = globalThis.prisma || generatePrismaClient();
+const prisma = globalThis.prisma || prismaSingletonClient();
 export default prisma;
 
 if (process.env.NODE_ENV !== "production") {

@@ -17,4 +17,14 @@ model User {
   id Int @id @default(autoincrement())
   username String @unique
   password String
+  events Event[] 
+}
+model Event {
+  id Int @id @default(autoincrement())
+  name String
+  description String?
+  time DateTime
+  location String?
+  organizerId Int
+  organizer User @relation(fields: [organizerId], references: [id])
 }

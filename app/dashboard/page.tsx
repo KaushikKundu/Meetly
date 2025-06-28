@@ -2,7 +2,7 @@ import Sidebar from "@/components/SideBar";
 
 export default function Dashboard() {
     return (
-        <div className="flex h-screen">
+        <div className="flex h-screen w-screen">
             <Sidebar />
             <div>
                 <h1>Home</h1>
