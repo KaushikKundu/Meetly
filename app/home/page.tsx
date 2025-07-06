@@ -16,7 +16,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mb-10">
+      {/* <section className="mb-10">
         <h2 className="text-xl font-semibold mb-4">Availability</h2>
         <div className="space-y-4 max-w-md">
           <select className="w-full border border-gray-300 rounded-md p-2 text-sm">
@@ -26,7 +26,7 @@ export default function Home() {
             <option>Select option</option>
           </select>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }
